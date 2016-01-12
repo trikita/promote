@@ -1,0 +1,7 @@
+<resources>
+    <string name="rate_dialog_title">Оцени приложението</string>
+    <string name="rate_dialog_message">Ако харесвате приложението, моля отделете малко време, за да го оцените. Няма да отнеме повече от минута. Благодаря за подкрепата!</string>
+    <string name="rate_dialog_btn_ok">Оцени сега</string>
+    <string name="rate_dialog_btn_cancel">Не, благодаря</string>
+    <string name="rate_dialog_btn_later">По-късно</string>
+</resources>

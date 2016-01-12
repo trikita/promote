@@ -1,0 +1,7 @@
+<resources>
+    <string name="rate_dialog_title">������������ ��� ��������</string>
+    <string name="rate_dialog_message">�� ��� ������ ���� � �������� �� ������ �� �� �������������;��� �� ����� �������� ��� ��� �����.��������� ��� ��� ����������!</string>
+    <string name="rate_dialog_btn_ok">������������ ����</string>
+    <string name="rate_dialog_btn_cancel">���,���������</string>
+    <string name="rate_dialog_btn_later">��������</string>
+</resources>

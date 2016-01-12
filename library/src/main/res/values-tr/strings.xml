@@ -1,0 +1,7 @@
+<resources>
+    <string name="rate_dialog_title">Bu uygulamaya puan verin</string>
+    <string name="rate_dialog_message">Eğer uygulamamızdan memnun kaldıysanız, lütfen birkaç saniyenizi ayırarak bize puan verin. Desteğiniz için teşekkürler!</string>
+    <string name="rate_dialog_btn_ok">Puan ver</string>
+    <string name="rate_dialog_btn_cancel">Hayır, teşekkürler</string>
+    <string name="rate_dialog_btn_later">Hatırlat</string>
+</resources>

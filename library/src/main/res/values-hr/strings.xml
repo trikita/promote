@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_dialog_title">Ocijeni aplikaciju</string>
+    <string name="rate_dialog_message">Ako Vam se sviđa ova aplikacija, molimo Vas da odvojite trenutak kako bi je ocijenili. Neće trajati više od minute. Hvala!</string>
+    <string name="rate_dialog_btn_ok">Ocijeni</string>
+    <string name="rate_dialog_btn_cancel">Ne, hvala</string>
+    <string name="rate_dialog_btn_later">Podjeti me kasnije</string>
+</resources>

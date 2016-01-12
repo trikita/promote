@@ -1,0 +1,7 @@
+<resources>
+    <string name="rate_dialog_title">Bedøm appen</string>
+    <string name="rate_dialog_message">Hvis du synes om appen, må du gerne bedømme den. Det tager højst et minut. Tak for din hjælp.</string>
+    <string name="rate_dialog_btn_ok">Bedøm nu</string>
+    <string name="rate_dialog_btn_cancel">Nej tak</string>
+    <string name="rate_dialog_btn_later">Senere</string>
+</resources>

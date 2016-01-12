@@ -1,0 +1,7 @@
+<resources>
+    <string name="rate_dialog_title">Noter cette application</string>
+    <string name="rate_dialog_message">Si vous appréciez cette application, veuillez prendre un moment pour la noter. Cela ne prendra qu\'une minute. Merci de votre participation !</string>
+    <string name="rate_dialog_btn_ok">Maintenant</string>
+    <string name="rate_dialog_btn_cancel">Non, merci</string>
+    <string name="rate_dialog_btn_later">Plus tard</string>
+</resources>

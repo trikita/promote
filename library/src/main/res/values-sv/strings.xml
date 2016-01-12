@@ -1,0 +1,7 @@
+<resources>
+    <string name="rate_dialog_title">Betygsätt appen</string>
+    <string name="rate_dialog_message">Om du gillar denna app, sätt gärna betyg på den. Det tar inte mer än ett ögonblick. Tack för ditt stöd!</string>
+    <string name="rate_dialog_btn_ok">Betygsätt nu</string>
+    <string name="rate_dialog_btn_cancel">Nej, tack</string>
+    <string name="rate_dialog_btn_later">Senare</string>
+</resources>
