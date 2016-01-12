@@ -119,4 +119,23 @@ public class PromoteTest {
 		assertThat(Promote.after(0).days().every(2).times().show(c, 100, null), is(true));
 		assertThat(Promote.after(0).days().every(2).times().show(c, 100, null), is(false));
 	}
+
+	@Test
+	public void testBan() {
+		assertThat(Promote.after(1).times().show(c, 100, null), is(false));
+		assertThat(Promote.after(1).times().show(c, 100, null), is(true));
+		assertThat(Promote.after(1).times().show(c, 100, null), is(true));
+		assertThat(Promote.ban(c, 100).after(1).times().show(c, 100, null), is(false));
+		assertThat(Promote.after(1).times().show(c, 100, null), is(false));
+	}
+
+	@Test
+	public void testReset() {
+		assertThat(Promote.after(1).times().show(c, 100, null), is(false));
+		assertThat(Promote.after(1).times().show(c, 100, null), is(true));
+		assertThat(Promote.after(1).times().show(c, 100, null), is(true));
+		Promote.reset(c);
+		assertThat(Promote.after(1).times().show(c, 100, null), is(false));
+		assertThat(Promote.after(1).times().show(c, 100, null), is(true));
+	}
 }
