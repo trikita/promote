@@ -1,30 +1,34 @@
 package trikita.promote;
 
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 
 public final class Promote {
 
 	public final static int RATE = 0;
 
-	public static Promote ban(Context c, int id) {
-		prefs(c).edit().putBoolean("promote:" + id + ":banned", true).apply();
-		return null;
-	}
-
-	public static Promote reset(Context c) {
-		prefs(c).edit().clear().apply();
-		return null;
-	}
-
-	private static SharedPreferences prefs(Context c) {
-		return c.getSharedPreferences("promote", 0);
-	}
-
 	public static Condition.Value after(int n) { return new Condition().after(n); }
 	public static Condition.Value every(int n) { return new Condition().every(n); }
 	public static Condition.Value every(int n, float backoff) { return new Condition().every(n, backoff); }
+
+    public static Promote ban(Context c, int id) {
+        prefs(c).edit().putBoolean("promote:" + id + ":banned", true).apply();
+        return null;
+    }
+
+    public static Promote reset(Context c) {
+        prefs(c).edit().clear().apply();
+        return null;
+    }
+
+    private static SharedPreferences prefs(Context c) {
+        return c.getSharedPreferences("promote", 0);
+    }
 
 	private static class DialogInfo {
 		public final int impressions; // how many times dialog has been shown
@@ -144,5 +148,30 @@ public final class Promote {
 			req.submit(ok);
 			return ok;
 		}
-	}
+
+        public boolean rate(Context c) {
+            return show(c, RATE, rateDialog(c, RATE));
+        }
+    }
+
+    public static Dialog rateDialog(final Context c, final int id) {
+        return new AlertDialog.Builder(c)
+                .setTitle(R.string.rate_dialog_title)
+                .setMessage(R.string.rate_dialog_message)
+                .setPositiveButton(R.string.rate_dialog_btn_ok, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        c.startActivity(new Intent(Intent.ACTION_VIEW,
+                                        Uri.parse("https://play.google.com/store/apps/details?id=" + c.getPackageName())));
+                        Promote.ban(c, id);
+                    }
+                }).setNegativeButton(R.string.rate_dialog_btn_cancel, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        Promote.ban(c, id);
+                    }
+                }).setNeutralButton(R.string.rate_dialog_btn_later, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                }).create();
+    }
 }

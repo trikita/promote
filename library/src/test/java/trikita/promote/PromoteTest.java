@@ -125,7 +125,8 @@ public class PromoteTest {
 		assertThat(Promote.after(1).times().show(c, 100, null), is(false));
 		assertThat(Promote.after(1).times().show(c, 100, null), is(true));
 		assertThat(Promote.after(1).times().show(c, 100, null), is(true));
-		assertThat(Promote.ban(c, 100).after(1).times().show(c, 100, null), is(false));
+		Promote.ban(c, 100);
+		assertThat(Promote.after(1).times().show(c, 100, null), is(false));
 		assertThat(Promote.after(1).times().show(c, 100, null), is(false));
 	}
 
