@@ -1,7 +1,10 @@
 <resources>
+
+    <string name="dialog_btn_cancel">Ne, díky</string>
+    <string name="dialog_btn_later">Připomenout později</string>
+
     <string name="rate_dialog_title">Ohodnotit aplikaci</string>
     <string name="rate_dialog_message">Pokud se Vám aplikace líbí, rádi bychom Vás poprosili o její ohodnocení. Nezabere to více než minutu. Děkujeme za Vaši podporu!</string>
     <string name="rate_dialog_btn_ok">Ohodnotit nyní</string>
-    <string name="rate_dialog_btn_cancel">Ne, díky</string>
-    <string name="rate_dialog_btn_later">Připomenout později</string>
+
 </resources>

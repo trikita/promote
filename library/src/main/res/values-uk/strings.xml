@@ -1,7 +1,10 @@
 <resources>
+
+    <string name="dialog_btn_cancel">Ні, дякую</string>
+    <string name="dialog_btn_later">Нагадати пізніше</string>
+
     <string name="rate_dialog_title">Оцініть цей додаток</string>
     <string name="rate_dialog_message">Якщо Вам сподобався цей додаток, будь ласка, знайдіть час, щоб оцінити його. Це займе не більше хвилини. Дякую за пітримку!</string>
     <string name="rate_dialog_btn_ok">Оцінити зараз</string>
-    <string name="rate_dialog_btn_cancel">Ні, дякую</string>
-    <string name="rate_dialog_btn_later">Нагадати пізніше</string>
+
 </resources>

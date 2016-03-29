@@ -1,7 +1,10 @@
 <resources>
+
+    <string name="dialog_btn_cancel">不用了，谢谢</string>
+    <string name="dialog_btn_later">之后提醒</string>
+
     <string name="rate_dialog_title">请为这个软件投票</string>
     <string name="rate_dialog_message">如果你喜欢这个软件,请花些时间为这个软件投票。你都不需要用上一分钟，就可以做到。谢谢你们的支持!</string>
     <string name="rate_dialog_btn_ok">投票！</string>
-    <string name="rate_dialog_btn_cancel">不用了，谢谢</string>
-    <string name="rate_dialog_btn_later">之后提醒</string>
+
 </resources>

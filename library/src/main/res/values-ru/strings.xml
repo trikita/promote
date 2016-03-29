@@ -1,7 +1,10 @@
 <resources>
+
+    <string name="dialog_btn_cancel">Нет, спасибо</string>
+    <string name="dialog_btn_later">Напомнить позже</string>
+
     <string name="rate_dialog_title">Оцените приложение</string>
     <string name="rate_dialog_message">Если вам понравилось это приложение, пожалуйста, найдите время, чтобы оценить его. Это не займет больше минуты. Спасибо за вашу поддержку!</string>
     <string name="rate_dialog_btn_ok">Оценить сейчас</string>
-    <string name="rate_dialog_btn_cancel">Нет, спасибо</string>
-    <string name="rate_dialog_btn_later">Напомнить позже</string>
+
 </resources>

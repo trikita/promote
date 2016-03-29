@@ -1,7 +1,10 @@
 <resources>
+
+    <string name="dialog_btn_cancel">いいえ</string>
+    <string name="dialog_btn_later">あとで</string>
+
     <string name="rate_dialog_title">アプリをレビューしませんか？</string>
     <string name="rate_dialog_message">このアプリを気に入っていただいたら、ぜひレビューしてください。レビューは１分未満で終わります。</string>
     <string name="rate_dialog_btn_ok">はい</string>
-    <string name="rate_dialog_btn_cancel">いいえ</string>
-    <string name="rate_dialog_btn_later">あとで</string>
+
 </resources>

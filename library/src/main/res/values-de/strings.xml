@@ -1,7 +1,10 @@
 <resources>
+
+    <string name="dialog_btn_cancel">Nein, Danke</string>
+    <string name="dialog_btn_later">Später</string>
+
     <string name="rate_dialog_title">Bewerte diese App</string>
     <string name="rate_dialog_message">Wenn dir diese App gefällt, nimm dir doch einen Moment Zeit und bewerte sie. Danke für deine Unterstützung!</string>
     <string name="rate_dialog_btn_ok">Jetzt bewerten</string>
-    <string name="rate_dialog_btn_cancel">Nein, Danke</string>
-    <string name="rate_dialog_btn_later">Später</string>
+
 </resources>
