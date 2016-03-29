@@ -1,7 +1,14 @@
 <resources>
+
+    <string name="dialog_btn_cancel">No, thanks</string>
+    <string name="dialog_btn_later">Later</string>
+
     <string name="rate_dialog_title">Rate this app</string>
     <string name="rate_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="rate_dialog_btn_ok">Rate now</string>
-    <string name="rate_dialog_btn_cancel">No, thanks</string>
-    <string name="rate_dialog_btn_later">Later</string>
+
+    <string name="share_dialog_title">Share this app</string>
+    <string name="share_dialog_message">If you enjoy using this app, would you mind taking a moment to share it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="share_dialog_btn_ok">Share</string>
+
 </resources>
