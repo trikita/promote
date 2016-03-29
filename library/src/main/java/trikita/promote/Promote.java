@@ -7,6 +7,12 @@ import android.content.SharedPreferences;
 public final class Promote {
 
     public final static int RATE = 0;
+    public final static int SHARE = 1;
+
+    public final static int FACEBOOK_TWITTER = 0;
+    public final static int TWITTER_FACEBOOK = 1;
+    public final static int FACEBOOK = 2;
+    public final static int TWITTER = 3;
 
     public static Condition.Value after(int n) { return new Condition().after(n); }
     public static Condition.Value every(int n) { return new Condition().every(n); }
@@ -145,10 +151,32 @@ public final class Promote {
 	    return ok;
 	}
 
-	public boolean rate(Context c) {
-	    return show(c, RATE, rateDialog(c, RATE));
+	public boolean share(Context c, int where, String url) {
+	    return share(c, where, url, null);
 	}
-    }
 
+	public boolean share(Context c, int where, String url, String text) {
+	    int id = Intents.canShare(c, where);
+	    switch (id) {
+		case Intents.FACEBOOK_APP:
+		case Intents.TWITTER_APP:
+		    return show(c,
+			SHARE,
+			Dialogs.shareAppDialog(c, SHARE, Intents.of(c, id, url, text), id));
+		case Intents.FACEBOOK_WEB:
+		case Intents.TWITTER_WEB:
+		    return show(c,
+			SHARE,
+			Dialogs.shareWebDialog(c, SHARE, Intents.of(c, id, url, text)));
+		default:
+		    return false;
+	    }
+	}
+
+	public boolean rate(Context c) {
+	    return show(c,
+		RATE,
+		Dialogs.rateDialog(c, RATE, Intents.of(c, Intents.RATE, null, null)));
+	}
     }
 }
