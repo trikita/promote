@@ -30,9 +30,25 @@ public class MainActivity extends AppCompatActivity {
                 Promote.reset(MainActivity.this);
             }
         });
-        findViewById(R.id.btn_goal).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_custom).setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Promote.after(5).times().every(2, 2f).times().show(MainActivity.this, MY_DIALOG_ID, myPromotionalDialog());
+            }
+        });
+        findViewById(R.id.btn_twitter).setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Promote.after(3).times().every(1).times().share(MainActivity.this,
+                    Promote.TWITTER_FACEBOOK,
+                    "http://trikita.co",
+                    "This is a tweet text");
+            }
+        });
+        findViewById(R.id.btn_facebook).setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Promote.after(1).times().every(3).times().share(MainActivity.this,
+                    Promote.FACEBOOK,
+                    "http://trikita.co",
+                    "Facebook won't let you show this text via Intent API, so whatever..");
             }
         });
     }

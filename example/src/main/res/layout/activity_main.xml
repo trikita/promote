@@ -9,8 +9,18 @@
     tools:context="trikita.promote.example.MainActivity">
 
     <Button
-        android:id="@+id/btn_goal"
-        android:text="Click me"
+        android:id="@+id/btn_custom"
+        android:text="Try to show custom dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_twitter"
+        android:text="Try to share via Twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_facebook"
+        android:text="Try to share via Facebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
