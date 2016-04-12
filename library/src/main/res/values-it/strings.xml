@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_btn_cancel">No grazie</string>
+    <string name="dialog_btn_later">Più tardi</string>
+    <string name="rate_dialog_btn_ok">Valuta Ora</string>
+    <string name="rate_dialog_message">Se ti piace usare questa applicazione, per favore dedica un momento per valutarla. Grazie per il tuo supporto!</string>
+    <string name="rate_dialog_title">Valuta questa applicazione</string>
+    <string name="share_dialog_btn_ok">Condividere</string>
+    <string name="share_dialog_message">Vorresti condividere questa app con i tuoi amici?</string>
+    <string name="share_dialog_title">Condividi questa app</string>
+</resources>

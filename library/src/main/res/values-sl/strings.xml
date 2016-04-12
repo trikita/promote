@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_btn_cancel">Ne hvala</string>
+    <string name="dialog_btn_later">Kasneje</string>
+    <string name="rate_dialog_btn_ok">Oceni sedaj</string>
+    <string name="rate_dialog_message">Če ti je aplikacija všeč, jo prosim oceni. Hvala za tvojo podporo!</string>
+    <string name="rate_dialog_title">Ocenite to aplikacijo</string>
+    <string name="share_dialog_btn_ok">Deliti</string>
+    <string name="share_dialog_message">Bi radi delili to aplikacijo s prijatelji?</string>
+    <string name="share_dialog_title">Delite to aplikacijo</string>
+</resources>

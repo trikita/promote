@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_btn_cancel">Не, хвала</string>
+    <string name="dialog_btn_later">Касније</string>
+    <string name="rate_dialog_btn_ok">Оцени сада</string>
+    <string name="rate_dialog_message">Ако вам се свиђе ова апликација, молим вас одвојите мало времена да је оцените. Хвала на подршци!</string>
+    <string name="rate_dialog_title">Оцени ову апликацију</string>
+    <string name="share_dialog_btn_ok">Деле</string>
+    <string name="share_dialog_message">Да ли желите да поделите ову апликацију са пријатељима?</string>
+    <string name="share_dialog_title">Поделите ову апликацију</string>
+</resources>
