@@ -7,4 +7,8 @@
     <string name="rate_dialog_message">Wenn dir diese App gefällt, nimm dir doch einen Moment Zeit und bewerte sie. Danke für deine Unterstützung!</string>
     <string name="rate_dialog_btn_ok">Jetzt bewerten</string>
 
+    <string name="share_dialog_title">Teile diese App</string>
+    <string name="share_dialog_message">Möchten Sie diese App mit Ihren Freunden teilen?</string>
+    <string name="share_dialog_btn_ok">Teilen</string>
+
 </resources>

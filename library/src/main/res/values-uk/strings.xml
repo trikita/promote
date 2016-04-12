@@ -7,4 +7,8 @@
     <string name="rate_dialog_message">Якщо Вам сподобався цей додаток, будь ласка, знайдіть час, щоб оцінити його. Це займе не більше хвилини. Дякую за пітримку!</string>
     <string name="rate_dialog_btn_ok">Оцінити зараз</string>
 
+    <string name="share_dialog_title">Поділіться цим додатком</string>
+    <string name="share_dialog_message">Ви хочете поділитися цим додатком з друзями?</string>
+    <string name="share_dialog_btn_ok">Поділитися</string>
+
 </resources>

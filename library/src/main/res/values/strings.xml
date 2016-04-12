@@ -8,7 +8,7 @@
     <string name="rate_dialog_btn_ok">Rate now</string>
 
     <string name="share_dialog_title">Share this app</string>
-    <string name="share_dialog_message">If you enjoy using this app, would you mind taking a moment to share it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="share_dialog_message">Would you like to share this app with your friends?</string>
     <string name="share_dialog_btn_ok">Share</string>
 
 </resources>

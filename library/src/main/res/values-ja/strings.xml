@@ -7,4 +7,8 @@
     <string name="rate_dialog_message">このアプリを気に入っていただいたら、ぜひレビューしてください。レビューは１分未満で終わります。</string>
     <string name="rate_dialog_btn_ok">はい</string>
 
+    <string name="share_dialog_title">このアプリを共有します</string>
+    <string name="share_dialog_message">あなたはお友達と、このアプリを共有したいと思いますか？</string>
+    <string name="share_dialog_btn_ok">シェア </string> 
+
 </resources>

@@ -7,4 +7,8 @@
     <string name="rate_dialog_message">이 앱이 만족스럽다면 평가를 부탁드립니다. 일분도 걸리지 않아요. 지원에 감사합니다. </string>
     <string name="rate_dialog_btn_ok">지금 평가하기</string>
 
+    <string name="share_dialog_title">이 응용 프로그램을 공유하기</string>
+    <string name="share_dialog_message">당신은 당신의 친구와 함께이 응용 프로그램을 공유 하시겠습니까?</string>
+    <string name="share_dialog_btn_ok">몫</string>
+
 </resources>

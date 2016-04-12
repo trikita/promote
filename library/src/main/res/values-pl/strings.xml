@@ -7,4 +7,8 @@
     <string name="rate_dialog_message">Jeżeli spodobała Ci się ta aplikacja, poświęć chwilę by ją ocenić. To nie zajmie dłużej niż jedną minutę. Z góry dziękuję za Twoje wsparcie!</string>
     <string name="rate_dialog_btn_ok">Oceń teraz</string>
 
+    <string name="share_dialog_title">Udostępnij tą aplikację</string>
+    <string name="share_dialog_message">Chciałbyś podzielić się tą aplikacją ze znajomymi?</string>
+    <string name="share_dialog_btn_ok">Dzielić</string>
+
 </resources>

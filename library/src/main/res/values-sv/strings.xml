@@ -7,4 +7,8 @@
     <string name="rate_dialog_message">Om du gillar denna app, sätt gärna betyg på den. Det tar inte mer än ett ögonblick. Tack för ditt stöd!</string>
     <string name="rate_dialog_btn_ok">Betygsätt nu</string>
 
+    <string name="share_dialog_title">Dela den här appen</string>
+    <string name="share_dialog_message">Vill du dela denna app med dina vänner?</string>
+    <string name="share_dialog_btn_ok">Dela med sig</string>
+
 </resources>

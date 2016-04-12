@@ -8,4 +8,8 @@
     <string name="rate_dialog_message">Ako Vam se sviđa ova aplikacija, molimo Vas da odvojite trenutak kako bi je ocijenili. Neće trajati više od minute. Hvala!</string>
     <string name="rate_dialog_btn_ok">Ocijeni</string>
 
+    <string name="share_dialog_title">Podijelite ovu aplikaciju</string>
+    <string name="share_dialog_message">Želite li podijeliti ovu aplikaciju s prijateljima?</string>
+    <string name="share_dialog_btn_ok">Udio</string>
+
 </resources>

@@ -7,4 +7,7 @@
     <string name="rate_dialog_message">Eğer uygulamamızdan memnun kaldıysanız, lütfen birkaç saniyenizi ayırarak bize puan verin. Desteğiniz için teşekkürler!</string>
     <string name="rate_dialog_btn_ok">Puan ver</string>
 
+    <string name="share_dialog_title">Bu uygulamayı paylaş</string>
+    <string name="share_dialog_message">Eğer arkadaşlarınızla bu uygulamayı paylaşmak ister misiniz?</string>
+    <string name="share_dialog_btn_ok">Pay</string>
 </resources>

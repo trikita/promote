@@ -7,4 +7,8 @@
     <string name="rate_dialog_message">Si te gusta esta aplicación, toma un momento para evaluarla. No tomará más de un minuto. ¡Gracias por tu apoyo!</string>
     <string name="rate_dialog_btn_ok">Evaluar</string>
 
+    <string name="share_dialog_title">Comparte esta aplicación</string>
+    <string name="share_dialog_message">¿Le gustaría compartir esta aplicación con sus amigos?</string>
+    <string name="share_dialog_btn_ok">Compartir</string>
+
 </resources>

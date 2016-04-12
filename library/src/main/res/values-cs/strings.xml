@@ -7,4 +7,8 @@
     <string name="rate_dialog_message">Pokud se Vám aplikace líbí, rádi bychom Vás poprosili o její ohodnocení. Nezabere to více než minutu. Děkujeme za Vaši podporu!</string>
     <string name="rate_dialog_btn_ok">Ohodnotit nyní</string>
 
+    <string name="share_dialog_title">Podělte se o tuto aplikaci</string>
+    <string name="share_dialog_message">Chtěli byste sdílet tuto aplikaci s vašimi přáteli?</string>
+    <string name="share_dialog_btn_ok">Podíl</string>
+
 </resources>
